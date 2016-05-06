@@ -1,0 +1,3 @@
+{"level":"info","message":"Running on http://localhost:8080","timestamp":"2016-05-06T16:44:58.173Z"}
+{"level":"info","message":"Got Request(1) on server (localhost:8080)","timestamp":"2016-05-06T16:45:04.344Z"}
+{"level":"info","message":"Got Request(2) on server (localhost:8080)","timestamp":"2016-05-06T16:45:09.631Z"}
