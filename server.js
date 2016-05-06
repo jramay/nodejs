@@ -12,7 +12,7 @@ const app = express();
 app.get('/', function (request, response) {
  requestNumber++;
  winston.info('Got Request('+requestNumber+') on server ('+request.headers.host+')');
-  response.send('Work in Progress for Docker Cluster in AWS by Muhammad Jaffar Ramay\n');
+  response.send('Work in Progress for Docker Cluster in AWS by Muhammad Jaffar Ramay\nRequest('+requestNumber+')');
 });
 
 app.listen(PORT);
