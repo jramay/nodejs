@@ -4,8 +4,8 @@ const express = require('express');
 const winston = require('winston');
 winston.add(winston.transports.File, { filename: 'server.log' });
 
-// Constants
-const PORT = 8081;
+// Constants test
+const PORT = 8082;
 var requestNumber = 0;
 // App
 const app = express();
