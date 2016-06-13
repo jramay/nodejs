@@ -12,7 +12,7 @@ const app = express();
 app.get('/', function (request, response) {
  requestNumber++;
  winston.info('Got Request('+requestNumber+') on server ('+request.headers.host+')');
-  response.send('Welcome Javier to Jenkins + Docker Images in AWS POC by Muhammad Jaffar Ramay\nRequest('+requestNumber+')');
+  response.send('Welcome Muhammad Jaffar Ramay to Jenkins + Docker Images in AWS POC by Muhammad Jaffar Ramay\nRequest('+requestNumber+')');
 });
 
 app.listen(PORT);
